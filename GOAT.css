@@ -1,0 +1,73 @@
+body {
+    background: black;
+}
+#term {
+    display: block;
+    z-index: 0;
+    margin: auto;
+    background-size: 1000px;
+}
+#test {
+    margin: -727px auto auto;
+    outline: #030904 solid 4px;
+    box-shadow: 5px 5px 5px 5px black;
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    color: #22d479;
+    text-shadow: black 1px 1px 2px;
+    font-size: 20px;
+}
+
+fieldset {
+    background: rgba(0,0,0,0.49);
+    border-color: #22d479;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    margin: auto;
+    top: 15px;
+    width: 500px;
+    display: none;
+}
+input[type="radio"] {
+    display: none;
+}
+label {
+    cursor: pointer;
+    margin: 1px 10px;
+    padding: 5px;
+    display: block;
+    border: rgba(34, 212, 121, 0) solid 2px;
+}
+label:hover {
+    border: #22d479 solid 2px;
+    background: rgba(34, 212, 121, 0.2);
+
+}
+#slider-wrapper {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    top: 0;
+
+}
+.slide {
+    width: 100%;
+    height: 100%;
+    background: center center;
+}
+
+#intro {
+    background: url("loading_screen.jpg") center center;
+}
+#result {
+    background: url("loading_screen.jpg") center center;
+}
+.result {
+    display: none;
+}
+#repeat {
+    display: none;
+}

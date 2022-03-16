@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>К.О.З.А.</title>
+    <link href="GOAT.css" type="text/css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script src="GOAT.js" type="text/javascript"></script>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gremlins.js/0.1.0/gremlins.min.js"></script>
+    <script>
+        gremlins
+            .createHorde()
+            .unleash();
+        
+    </script>
+    <img src="term.png" id="term" />
+
+    <form name="f" id="test">
+        <div id="slider-wrapper">
+            <div id="intro" class="slide">
+                <fieldset>
+                    <p>КОЗА - это Квалификационно-оценочный задачник администрации, который определит ваши склонности и
+                        обратит их на благо всех обитателей Убежища. Помните, в козе нет неправильных ответов.</p>
+                    <label for="start">Поехали</label>
+                    <input type="radio" id="start" />
+                    <legend>К.О.З.А.</legend>
+                </fieldset>
+            </div>
+            <!--Sc-2 Sp-3 MW-3 Sn-3 Me-4 Un-2 Ex-4 BG-2 LW-3 Ba-4 Br-2 EW-2 Re-2-->
+            <div class="quest slide">
+                <fieldset class="slider-text">
+                    <h3>К вам подбегает очумевший учёный и кричит: «Я всажу свой квантовый гармонизатор в вашу
+                        фотонно-резонаторную камеру!» Что вы ответите?</h3>
+                    <div class="ans"><label>
+                        <input type="radio" key="sc"/>
+                        «Но, доктор, это же вызовет параболическую дестабилизацию сингулярности расщепления!»
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="sp"/>
+                        «Чё? И тебя туда же, козёл!»
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="mel"/>
+                        Без разговоров оглушить учёного, огрев его по голове ближайшим тяжёлым предметом. Откуда вы
+                        знаете: вдруг он собирался взорвать убежище?
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="sn"/>
+                        Промолчать и быстренько удалиться, пока учёный не продолжил свою тираду.
+                    </label></div>
+                </fieldset>
+            </div>
+            <div class="quest slide">
+                <fieldset class="slider-text">
+                    <h3>Вы проходите практику в клинике. В кабинет вваливается пациент с раной на ноге, воспалённой от
+                        неизвестной инфекции. Инфекция распространяется с пугающей скоростью, но доктор ненадолго вышел.
+                        Ваши действия?</h3>
+                    <div class="ans"><label>
+                        <input type="radio" key="mel"/>
+                        Ампутировать ногу, пока инфекция не распространилась дальше.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="sp"/>
+                        Громко звать на помощь.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="med"/>
+                        Обработать заражённую область медикаментами, насколько вы умеете.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="sc"/>
+                        Зафиксировать пациента и спокойно наблюдать за распространением инфекции.
+                    </label></div>
+                </fieldset>
+            </div>
+            <div class="quest slide">
+                <fieldset class="slider-text">
+                    <h3>На нижних уровнях Убежища вы находите маленького потерявшегося мальчика. Он голоден и напуган, но,
+                        кажется, у него с собой краденая вещь. Ваши действия?</h3>
+                    <div class="ans"><label>
+                        <input type="radio" key="sp"/>
+                        Обнять мальчика и сказать ему, что всё будет хорошо.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="un"/>
+                        Силой конфисковать краденое и в наказание оставить мальчика там, где нашли.
+                    </label>
+                    </div>
+                    <div class="ans"><label>
+                        <input type="radio" key="sn"/>
+                        Залезть к мальчику в карман, вытащить краденое и предоставить его самому себе.
+                    </label>
+                    </div>
+                    <div class="ans"><label>
+                        <input type="radio" key="no"/>
+                        Отвести мальчика в безопасное место, затем доложить о нём Смотрителю.
+                    </label></div>
+                </fieldset>
+            </div>
+            <div class="quest slide">
+                <fieldset class="slider-text">
+                    <h3>Поздравляем! Вас взяли в бейсбольную команду Убежища 101. Кем вы хотите быть?</h3>
+                    <div class="ans"><label>
+                        <input type="radio" key="ex"/>
+                        Питчером.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="bi"/>
+                        Кетчером.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="mel"/>
+                        Постоянным отбивающим.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="un"/>
+                        Никем. Вот если бы у нас была футбольная команда…
+                    </label></div>
+                </fieldset>
+            </div>
+            <div class="quest slide">
+                <fieldset class="slider-text">
+                    <h3>Ваша бабушка приглашает вас на чай. К вашему удивлению, она даёт вам пистолет и приказывает убить
+                        другого жителя Убежища. Ваши действия?</h3>
+                    <div class="ans"><label>
+                        <input type="radio" key="li"/>
+                        Убить этого жителя из пистолета — старших надо слушаться.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="ba"/>
+                        Предложить самое ценное своё имущество в уплату за жизнь потенциальной жертвы.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="bi"/>
+                        Попросить у бабушки миниган. А то ещё промажете ненароком.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="ex"/>
+                        Выплеснуть чай бабушке в лицо.
+                    </label></div>
+                </fieldset>
+            </div>
+            <div class="quest slide">
+                <fieldset class="slider-text">
+                    <h3>Старый мистер Абернати снова заперся у себя в комнате, вам приказали извлечь его оттуда. Как вы это
+                        сделаете?</h3>
+                    <div class="ans"><label>
+                        <input type="radio" key="br"/>
+                        Вскроете замок на его двери шпилькой для волос.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="ex ba"/>
+                        Выменяете у местного хулигана петарду и взорвёте дверь.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="en"/>
+                        Отправитесь в арсенал, возьмёте лазерный пистолет и расстреляете замок.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="re"/>
+                        Отправитесь по своим делам — пусть дедуля помаринуется.
+                    </label></div>
+                </fieldset>
+            </div>
+            <div class="quest slide">
+                <fieldset class="slider-text">
+                    <h3>О нет! Вас облучило радиацией. У вас из живота выросла третья рука! Какой лучший способ лечения?</h3>
+                    <div class="ans"><label>
+                        <input type="radio" key="li"/>
+                        Пуля в лоб.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="med"/>
+                        Антимутаген в больших дозах.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="ba"/>
+                        Молитва. Может, Господь пощадит вас в обмен на праведную жизнь.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="en"/>
+                        Удаление мутировавшей ткани прецизионным лазером.
+                    </label></div>
+                </fieldset>
+            </div>
+            <div class="quest slide">
+                <fieldset class="slider-text">
+                    <h3>У другого жителя Убежища 101 есть первый выпуск комикса «Грогнак-Варвар». Вы очень хотите его
+                        заполучить. Как лучше всего это сделать?</h3>
+                    <div class="ans"><label>
+                        <input type="radio" key="ba"/>
+                        Выменять комикс на какое-нибудь ваше имущество поценнее.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="li"/>
+                        Отобрать комикс под дулом пистолета.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="sn"/>
+                        Прокрасться в квартиру жителя и стащить комикс со стола.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="med"/>
+                        Подсыпать жителю в ядер-колу быстродействующее снотворное и забрать книжку, пока он валяется в
+                        отключке.
+                    </label></div>
+                </fieldset>
+            </div>
+            <div class="quest slide">
+                <fieldset class="slider-text">
+                    <h3>Вы решили подшутить над отцом. Вы вошли в его личную уборную, где никто вас не видит, и…</h3>
+                    <div class="ans"><label>
+                        <input type="radio" key="re"/>
+                        Открутили гайки на сливных трубах. Когда папа включит воду, случится потоп.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="ex"/>
+                        Засунули в унитаз хлопушку. Это точно вызовет суматоху.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="med"/>
+                        Взломали запертый шкафчик с лекарствами и заменили его лекарства от гипертонии на таблетки
+                        глюкозы.
+                    </label></div>
+                    <div class="ans"><label>
+                        <input type="radio" key="br"/>
+                        Нахимичили с его электробритвой, превратив её по характеристикам в шокер.
+                    </label></div>
+                </fieldset>
+            </div>
+            <div id="result" class="slide">
+                <fieldset>
+                    <legend>Ваш результат</legend>
+                    <div class="result ba" id="barter">
+                        <h3>Священник Убежища</h3>
+                        <p>Говорят, КОЗА никогда не лжёт... Если верить этому, ты станешь нашим следующим священником.
+                            Господи, помилуй нас.</p>
+                    </div>
+                    <div class="result bi" id="big_guns">
+                        <h3>Оператор пульта управления прачечной</h3>
+                        <p>Ну что ж, если верить этому, тебя выучат на эту должность. И вправду,
+                            новые люди - новые профессии.</p>
+                    </div>
+                    <div class="result en" id="energy_weapons">
+                        <h3>Мастер педикюра</h3>
+                        <p>Приятно осознавать, что меня всё ещё можно удивить. Я бы ещё поверил в мастера
+                            маникюрного кабинета, или даже массажиста... но у тебя, видимо, душа в пятках.</p>
+                    </div>
+                    <div class="result ex" id="explosive">
+                        <h3>Специалист по утилизации отходов</h3>
+                        <p>Здесь сказано, что это твоя идеальная профессия. Специалист, понимаешь ли, не любитель.
+                            Поздравляю!</p>
+                    </div>
+                    <div class="result br" id="breaking">
+                        <h3>Инспектор преданности Убежищу</h3>
+                        <p>Хм... Я-то думал, эту должность упразднили десятки лет тому назад. Кажется, эта работа как раз
+                            тебе по душе, хм?</p>
+                    </div>
+                    <div class="result med" id="medicine">
+                        <h3>Подопытный для клинический испытаний</h3>
+                        <p>Подопытный... В этом ты наверняка превзойдёшь всех...</p>
+                    </div>
+                    <div class="result mel" id="melee_weapons">
+                        <h3>Повар</h3>
+                        <p>Кажется, в нашей столовой будет новый повар. Сразу скажу: мне без горчицы и солёных огурцов в
+                            два раза больше. Ха-ха-ха.</p>
+                    </div>
+                    <div class="result re" id="repair">
+                        <h3>Механик для музыкального автомата</h3>
+                        <p>Слава Богу. Эта штука со смерти старика Джо Палмера всё время барахлит.</p>
+                    </div>
+                    <div class="result sc" id="science">
+                        <h3>Программист Пип-боя</h3>
+                        <p>Так-так. Программист, да? У Стэнли наконец-то появится коллега.</p>
+                    </div>
+                    <div class="result li" id="light_weapons">
+                        <h3>Мастер художественной татуировки</h3>
+                        <p>Интересно, у кого наберётся достаточно храбрости, чтобы стать твоим первым клиентом? Я точно пас.</p>
+                    </div>
+                    <div class="result sn" id="sneak">
+                        <h3>Сменный мастер</h3>
+                        <p>Оказывается, в тебе скрыт потенциал руководителя. Кто знает, не говорю ли я с будущим Смотрителем?
+                            Что ж, бывало и не такое.</p>
+                    </div>
+                    <div class="result sp" id="speech">
+                        <h3>Семейный психотерапевт Убежиша</h3>
+                        <p>Надо же. Надо же! Мне уже почти что хочется жениться, чтобы воспользоваться твоими услугами.</p>
+                    </div>
+                    <div class="result un" id="unarmed">
+                        <h3>Массажист</h3>
+                        <p>Похоже, твои... физические таланты пригодятся всему убежищу - и мы получим нового массажиста.</p>
+                    </div>
+                    <input type="radio" id="repeat" class="rpt" /><label for="repeat">Начать тест заново.</label>
+                </fieldset>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
